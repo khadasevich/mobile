@@ -13,7 +13,7 @@ public class DriverManager {
     public AndroidDriver createDriver() {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("deviceName", "Pixel4");
-        caps.setCapability("udid", "emulator-5556");
+        caps.setCapability("udid", "emulator-5554");
         caps.setCapability("platformName", "Android");
         caps.setCapability("appPackage", "com.google.android.deskclock");
         caps.setCapability("appActivity", "com.android.deskclock.DeskClock");
